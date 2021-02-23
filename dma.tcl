@@ -163,6 +163,7 @@ set obj [get_filesets sources_1]
 set files [list \
  [file normalize "${origin_dir}/src/hdl/ila_module.v" ]\
  [file normalize "${origin_dir}/src/hdl/dma_system_wrapper.v" ]\
+ [file normalize "${origin_dir}/src/hdl/counter.v" ]\
 ]
 set imported_files [import_files -fileset sources_1 $files]
 
